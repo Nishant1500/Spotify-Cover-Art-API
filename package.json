@@ -1,0 +1,32 @@
+{
+  "name": "spotify-cover-fetch",
+  "version": "0.2.1",
+  "description": "Fetch cover art from Spotify",
+  "main": "index.js",
+  "bin": {
+    "spotify-cover-fetch": "./bin/scf.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^5.3.1"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahstro/spotify-cover-fetch.git"
+  },
+  "keywords": [
+    "spotify",
+    "album",
+    "cover",
+    "art"
+  ],
+  "author": "ahstro <anton@lutic.org> (http://lutic.org)",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ahstro/spotify-cover-fetch/issues"
+  },
+  "homepage": "https://github.com/ahstro/spotify-cover-fetch#readme"
+}
