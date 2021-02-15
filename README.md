@@ -1,14 +1,14 @@
-node-spotify-data
+Spotify-Cover-Art-API
 =================
 
-Simple spotify metadata. Supports playlist, cover art, artist, album and track.
+Lightweight Spotify API To Get playlist, cover art, artist, album and track.
 
 ## Install
 
-`npm install spotify-data --save`
+`npm install Spotify-Cover-Art-API --save`
 
 ## Parsing URIs
-`spotify.uri = require('spotify-uri');` - https://github.com/TooTallNate/spotify-uri
+`spotify.uri = require('spotify-uri');`
 
 ```
 var parsed = spotify.uri.parse('spotify:track:1pKYYY0dkg23sQQXi0Q5zN')
@@ -25,7 +25,7 @@ spotify.uri.formatURI(parsed);
 ## Available methods
 
 ```javascript
-var spotify = require('spotify-data');
+var spotify = require('Spotify-Cover-Art-API');
 
 // All callbacks are called with:
 var callback = function(err, result) {
