@@ -4,7 +4,6 @@
 name: NPM Package
 
 jobs:
-
   publish-npm:
     runs-on: macos-latest
     steps:
