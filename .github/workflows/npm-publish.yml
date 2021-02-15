@@ -3,10 +3,6 @@
 
 name: NPM Package
 
-on:
-  release:
-    types: [created]
-
 jobs:
 
   publish-npm:
