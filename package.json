@@ -1,5 +1,5 @@
 {
-  "name": "spotify-data",
+  "name": "Spotify-Cover-Art-API",
   "version": "4.0.0",
   "description": "Lightweight Spotify API To Get playlist, cover art, artist, album and track.",
   "keywords": [
