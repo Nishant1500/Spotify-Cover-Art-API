@@ -16,7 +16,7 @@ And We Will Be Updating The Readme.MD Very Soon To A Cleaner And Simple Version.
 
 ## Install
 
-`npm install Spotify-Cover-Art-API --save`
+`npm install spotify-cover-art-api --save`
 
 ## Available methods
 
