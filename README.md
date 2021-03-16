@@ -8,7 +8,7 @@ You Just Have To Add `(nothing, url)` like this
 ```javascript
 const spotify = require('spotify-cover-art-api')
 
-spotify.<type>.cover('<id>', (nothing, url) => console.log(url)
+spotify.<type>.cover('<id>', (nothing, url) => console.log(url));
 {...}
 ```
 
