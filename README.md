@@ -3,24 +3,20 @@ Spotify-Cover-Art-API
 
 Lightweight Spotify API To Get playlist, cover art, artist, album and track.
 
+Having **Null** Error? There We Go We Have a fix for it :)
+You Just Have To Add `(nothing, url)`` like this
+```javascript
+const spotify = require('spotify-cover-art-api')
+
+spotify.<type>.cover('<id>', (nothing, url) => console.log(url)
+{...}
+```
+
+And We Will Be Updating The Readme.MD Very Soon To A Cleaner And Simple Version.
+
 ## Install
 
 `npm install Spotify-Cover-Art-API --save`
-
-## Parsing URIs
-`spotify.uri = require('spotify-uri');`
-
-```
-var parsed = spotify.uri.parse('spotify:track:1pKYYY0dkg23sQQXi0Q5zN')
-// { uri: 'spotify:track:1pKYYY0dkg23sQQXi0Q5zN',
-//   type: 'track',
-//   id: '1pKYYY0dkg23sQQXi0Q5zN' }
-
-spotify.uri.formatURI(parsed);
-// 'spotify:track:1pKYYY0dkg23sQQXi0Q5zN'
-
-// and more... see https://github.com/TooTallNate/spotify-uri
-```
 
 ## Available methods
 
