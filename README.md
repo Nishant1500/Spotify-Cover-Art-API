@@ -15,9 +15,13 @@ spotify.<type>.cover('<id>', (nothing, url) => console.log(url));
 
 And We Will Be Updating The Readme.MD Very Soon To A Cleaner And Simple Version.
 
-## Install
+[![NPM Badge](https://nodei.co/npm/spotify-cover-art-api.png)](https://npmjs.com/package/spotify-cover-art-api)
 
-`npm install spotify-cover-art-api --save`
+# Install 
+
+```shell
+npm install spotify-cover-art-api
+```
 
 ## Available methods
 
